@@ -1,0 +1,16 @@
+{
+    "name": "MGS.AsyncCruiser",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2e9b3529f98439f4b9a0b1735973d56f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
