@@ -1,0 +1,18 @@
+{
+    "name": "com.mgs.asynccruiser",
+    "version": "1.0.0",
+    "displayName": "Async Cruiser",
+    "description": "Cruiser to tick every cycle.",
+    "unity": "2021.3",
+    "keywords": [
+        "async",
+        "cruiser",
+        "cycle",
+        "tick"
+    ],
+    "author": {
+        "name": "Mogoson",
+        "email": "mogoson@outlook.com",
+        "url": "https://github.com/mogoson"
+    }
+}
