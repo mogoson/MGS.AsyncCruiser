@@ -12,7 +12,7 @@
 
 using System;
 
-namespace MGS.AsyncCruiser
+namespace MGS.Cruiser
 {
     public interface IAsyncCruiser : IDisposable
     {

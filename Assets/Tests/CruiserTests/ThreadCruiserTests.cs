@@ -15,25 +15,25 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-namespace MGS.AsyncCruiser.Tests
+namespace MGS.Cruiser.Tests
 {
-    public class MonoCruiserTests
+    public class ThreadCruiserTests
     {
-        class TestMonoCruiser : MonoCruiser
+        class TestThreadCruiser : ThreadCruiser
         {
             public int TickCount { private set; get; }
 
             protected override void CruiserTick()
             {
                 TickCount++;
-                Debug.Log("CruiserTick in main thread.");
+                Debug.Log("CruiserTick in background thread.");
             }
         }
 
         [UnityTest]
         public IEnumerator TestMonoCruiserTick()
         {
-            var cruiser = new TestMonoCruiser();
+            var cruiser = new TestThreadCruiser();
             cruiser.Activate();
 
             yield return new WaitForSeconds(3.0f);

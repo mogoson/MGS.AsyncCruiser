@@ -14,7 +14,7 @@ using System.Collections;
 using MGS.Agent;
 using UnityEngine;
 
-namespace MGS.AsyncCruiser
+namespace MGS.Cruiser
 {
     public abstract class MonoCruiser : MonoAgent, IAsyncCruiser
     {

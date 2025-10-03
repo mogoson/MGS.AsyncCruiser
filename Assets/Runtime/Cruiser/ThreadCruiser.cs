@@ -12,7 +12,7 @@
 
 using System.Threading;
 
-namespace MGS.AsyncCruiser
+namespace MGS.Cruiser
 {
     public abstract class ThreadCruiser : IAsyncCruiser
     {
